@@ -1,4 +1,4 @@
 # Download the Trained Model
 # Due to GitHub's file size limitations, files larger than 25 MB cannot be uploaded through the GitHub web interface, and files larger than 100 MB are blocked entirely, even via Git.
 # Since the trained model file (.h5) exceeds these limits, it is not included directly in this repository.
-# Instead, you can download it from the link below:
+# 👉 [Click here to download the trained VGG16 model (.h5) from Google Drive](https://drive.google.com/your-model-link)
