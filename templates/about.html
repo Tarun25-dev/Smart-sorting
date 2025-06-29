@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - NutriGaze</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      color: #333;
+    }
+
+    nav {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 25px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #ddd;
+    }
+
+    @media(max-width: 768px){
+      .nav-links a {
+        margin-top: 10px;
+      }
+    }
+
+    .page-heading {
+      text-align: center;
+      margin: 30px 0 10px;
+      font-size: 32px;
+      color: #d6336c;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 10px 20px 40px;
+    }
+
+    .about-text {
+      font-size: 15px;
+      line-height: 1.7;
+      max-width: 900px;
+      margin: 0 auto 60px;
+      text-align: justify;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding: 0 10px 50px;
+    }
+
+    @media (min-width: 768px) {
+      .about-text {
+        font-size: 14.5px;
+      }
+      .grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 cards per row on wider screens */
+      }
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .photo-container {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 15px;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 0 0 4px #ddd;
+    }
+
+    .photo-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .card .info {
+      font-size: 13px;
+      color: #333;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">NUTRIGAZE</div>
+    <div class="nav-links">
+      <a href="{{ url_for('index') }}">Home</a>
+      <a href="{{ url_for('about') }}">About</a>
+      <a href="{{ url_for('inspect') }}">Upload</a>
+      <a href="{{ url_for('contact') }}">Contact</a>
+    </div>
+  </nav>
+
+  <h1 class="page-heading">About Us</h1>
+
+  <div class="container">
+    <div class="about-text">
+      <p>
+        We are a team of passionate learners and developers working on innovative AI-based solutions to solve real-world problems. This project — <strong>Smart Sorting: Identifying Rotten Fruits and Vegetables Using Deep Learning</strong> — was developed to help minimize food waste and promote smarter decision-making in storage, retail, and kitchens.
+      </p>
+      <p>
+        By training a custom machine learning model, we built a web-based application that can automatically classify fruits and vegetables as healthy or rotten with a single image. It’s fast, easy to use, and accessible from any device.
+      </p>
+      <p>
+        Our goal with this project was not just to build a functional tool, but also to explore the intersection of computer vision and sustainability. We believe in making AI meaningful and accessible — one pixel at a time.
+      </p>
+      <p>
+        This project reflects our curiosity, collaboration, and commitment to continuous learning.
+      </p>
+    </div>
+
+    <div class="grid">
+      <!-- Team Cards -->
+      <div class="card">
+        <div class="photo-container">
+          <img src="static/assets/profileimg.png" alt="Student 1">
+        </div>
+        <h3>K. Tharun kumar</h3>
+        <div class="info">
+          ID: 22X51A3225<br>
+          College: Santhiram Engineering College<br>
+          Email: 22x51a3225@srecnandyal.edu.in
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="photo-container">
+          <img src="static/assets/profileimg.png" alt="Student 2">
+        </div>
+        <h3>S. Jaswanth</h3>
+        <div class="info">
+          ID: 23X55A3203<br>
+          College: Santhiram Engineering College<br>
+          Email: 23x55a3225@srecnandyal.edu.in
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="photo-container">
+          <img src="static/assets/profileimg.png" alt="Student 3">
+        </div>
+        <h3>S. Farhath</h3>
+        <div class="info">
+          ID: 22X51A3264<br>
+          College: Santhiram Engineering College<br>
+          Email: 22x51a3264@srecnandyal.edu.in
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="photo-container">
+          <img src="static/assets/profileimg.png" alt="Student 4">
+        </div>
+        <h3>M. Sri Hari</h3>
+        <div class="info">
+          ID: 22X51A3232<br>
+          College: Santhiram Engineering College<br>
+          Email: 22x51a3232@srecnandyal.edu.in
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="photo-container">
+          <img src="static/assets/profileimg.png" alt="Student 5">
+        </div>
+        <h3>B. Naga Vasanth Reddy</h3>
+        <div class="info">
+          ID: 23X55A3201<br>
+          College: Santhiram Engineering College<br>
+          Email: vasanthnaga6@gmail.com
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prediction Result - NutriGaze</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      font-family: 'Raleway', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #f4f4f4;
+    }
+
+    nav {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 25px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #ddd;
+    }
+    @media(max-width:789px){
+    	.nav-links a{
+    	margin-top:15px;
+    }
+    }
+    
+
+    .container {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      max-width: 400px;
+      margin: auto;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+
+    .prediction {
+      font-size: 22px;
+      font-weight: bold;
+      color: darkgreen;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 25px;
+      font-size: 16px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">NUTRIGAZE</div>
+  <div class="nav-links">
+    <a href="{{ url_for('index') }}">Home</a>
+    <a href="{{ url_for('about') }}">About</a>
+    <a href="{{ url_for('inspect') }}">Upload</a>
+    <a href="{{ url_for('contact') }}">Contact</a>
+  </div>
+</nav>
+
+<div class="container">
+  <h1>FreshEye Detection</h1>
+  <div class="card">
+    <h2>Result of fruits and vegetables</h2>
+    <img src="{{ url_for('static', filename='uploads/' + img_file) }}" alt="Uploaded Image">
+    <div class="prediction">{{ predict }}</div>
+    <a href="/inspect"><button>Try Another Image</button></a>
+  </div>
+</div>
+
+</body>
+</html>
