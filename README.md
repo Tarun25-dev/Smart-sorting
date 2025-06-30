@@ -20,13 +20,13 @@ Smart Sorting is an AI-powered system designed to detect and classify rotten fru
   
 🛠️ Tools & Technologies Used
 
-👉 Development Tools
+👉 Development Tools:
 
-Python: Core programming language for model and app logic.
+Python : Core programming language for model and app logic.
 
-Google Colab: For training the model and data preprocessing.
+Google Colab : For training the model and data preprocessing.
 
-Visual Studio Code (VS Code): For building and testing the Flask web app.
+Visual Studio Code (VS Code) : For building and testing the Flask web app.
 
 Flask	: To build the web interface (routes, HTML integration, etc.)
 
@@ -36,7 +36,7 @@ Pillow (PIL): Image handling and preprocessing before feeding to the model.
 
 NumPy	: Numerical operations and array manipulation.
 
-👉 Frontend Tools
+👉 Frontend Tools:
 
 HTML5 / CSS3	Structure and styling of the website
 
