@@ -15,4 +15,44 @@ Smart Sorting is an AI-powered system designed to detect and classify rotten fru
 5. Train, Evaluate, Save (.h5)
 6. Build Flask App + UI
 7. Deploy Locally
+
+
   
+🛠️ Tools & Technologies Used
+
+👉 Development Tools
+
+Python: Core programming language for model and app logic.
+
+Google Colab: For training the model and data preprocessing.
+
+Visual Studio Code (VS Code): For building and testing the Flask web app.
+
+Flask	: To build the web interface (routes, HTML integration, etc.)
+
+TensorFlow / Keras : Deep learning framework for model training and .h5 model loading.
+
+Pillow (PIL): Image handling and preprocessing before feeding to the model.
+
+NumPy	: Numerical operations and array manipulation.
+
+👉 Frontend Tools
+
+HTML5 / CSS3	Structure and styling of the website
+
+Responsive Design (Media Queries)	Ensures the website works on all screen sizes
+
+Jinja2 Templating (in Flask)	Renders dynamic predictions in HTML pages
+
+👉 AI/ML Tools:
+
+VGG16	: Pre-trained model used for transfer learning
+
+Transfer Learning	: Speeds up training by using learned features from pre-trained networks
+
+Data Augmentation :(Optional)	Increases dataset diversity during training
+
+
+👉 Deployment :
+
+ GitHub	: Version control and project hosting
