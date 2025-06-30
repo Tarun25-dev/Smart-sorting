@@ -77,4 +77,4 @@ Data Augmentation :(Optional)	Increases dataset diversity during training
 
 ![predict page](https://github.com/Tarun25-dev/Smart-sorting/blob/main/static/assets/projectimg/Screenshot%20(18).png)
 
-![while running flask]()
+![while running flask](https://github.com/Tarun25-dev/Smart-sorting/blob/main/static/assets/projectimg/Screenshot%20(19).png)
