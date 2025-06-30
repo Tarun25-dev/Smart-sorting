@@ -66,4 +66,5 @@ Data Augmentation :(Optional)	Increases dataset diversity during training
 
 
 3. Smart Fridge – Tells you on your phone if something inside your fridge is going bad.
->only few real world screnarieos i mentioned including this, there are many applications are there.
+
+📝 These are just a few practical examples — the technology can be applied in many more real-life situations.
