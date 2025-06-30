@@ -3,6 +3,9 @@
 
 model link 🔗https://drive.google.com/file/d/162P3Q1cD9NKiSLx6AeiBUOpqHDgVMDf0/view?usp=drivesdk
 
+## Demo Video link
+[!demovideo]()
+
 🧠 Smart Sorting: Transfer Learning for Identifying Rotten Fruits and Vegetables
 
 Smart Sorting is an AI-powered system designed to detect and classify rotten fruits and vegetables using transfer learning with the VGG16 model. It helps automate quality checks in food processing, retail, and even smart homes to reduce food waste and enhance safety.
