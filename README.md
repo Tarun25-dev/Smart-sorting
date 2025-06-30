@@ -56,3 +56,14 @@ Data Augmentation :(Optional)	Increases dataset diversity during training
 👉 Deployment :
 
  GitHub	: Version control and project hosting
+
+⭐ Applications:
+
+1. Factories – Helps quickly find and remove bad fruits and vegetables on machines instead of doing it by hand.
+
+
+2. Supermarkets – Checks if fruits and veggies are fresh before putting them on shelves.
+
+
+3. Smart Fridge – Tells you on your phone if something inside your fridge is going bad.
+>only few real world screnarieos i mentioned including this, there are many applications are there.
