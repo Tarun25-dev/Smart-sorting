@@ -4,7 +4,7 @@
 model link 🔗https://drive.google.com/file/d/162P3Q1cD9NKiSLx6AeiBUOpqHDgVMDf0/view?usp=drivesdk
 
 ## Demo Video link
-[!demovideo]()
+[!demovideo](https://github.com/Tarun25-dev/Smart-sorting/blob/main/Demo%20video/Demo.mp4)
 
 🧠 Smart Sorting: Transfer Learning for Identifying Rotten Fruits and Vegetables
 
