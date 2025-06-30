@@ -71,5 +71,4 @@ Data Augmentation :(Optional)	Increases dataset diversity during training
 
 
 ## screenshots
-➡home page :
-(static/assets/projectimg/screenshot(16).png
+![home page](static/assets/projectimg/Screenshot(16).png
